@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure no margins or padding are applied globally */
+html, body, #root {
+  @apply m-0 p-0 h-full;
+}
+
+
+body {
+  @apply antialiased bg-gray-100 text-gray-900;
+}
+
+
+
+a {
+  @apply text-blue-500 hover:text-blue-700;
+}
+
+.navbar-menu {
+  @apply flex-col sm:flex-row sm:items-center;
+}
+
